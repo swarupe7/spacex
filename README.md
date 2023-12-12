@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# SpaceX Dashboard 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+This dashboard is designed to provide user-friendly experience, allowing you to look into the details of SpaceX missions. The dashboard consists of two main sections: a Landing Page and an Analytics page offering graphical representations of spacex launch operations .
 
-## Available Scripts
+## Technologies Used 
+- [React](https://reactjs.org/) - A JavaScript library for building user interfaces.
+- [React Router](https://reactrouter.com/) - Declarative routing for React.js.
+- [React Table](https://react-table.tanstack.com/) - A headless utility for building flexible, lightweight table components.
+- [Chart.js](https://www.chartjs.org/) - Simple JavaScript charting library.
+- [React Chartjs 2](https://www.npmjs.com/package/react-chartjs-2) - A React wrapper for Chart.js.
+- [Chakra UI](https://chakra-ui.com/getting-started) - A UI component library for creating beautiful interfaces.
 
-In the project directory, you can run:
+## Landing Page
 
-### `npm start`
+1. ### <span style="font-size:10px;">Table</span>
+  -  The table displays essential information and  a detailed overview on SpaceX launches.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. ### <span style="font-size:10px;">Search</span>
+  - Utilize the search functionality to quickly find specific information within the table.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. ### <span style="font-size:10px;">Pagination</span>
+  - Pagination divides the data into pages of 10 rows each, with an organized data presentation.
+    
+4. ### <span style="font-size:10px;">Sort</span>
+  - Easily sort the data based on various criteria to analyze launches in ascending or       
+    descending order just by clicking on the corresponding headers.
+    
+## Analytics Section
 
-### `npm test`
+### <span style="font-size:10px;">Rocket Wise Performance</span>
+   Explore a graphical representation showcasing the Rocket wise performance . This visualization provides valuable insights into the performance of each type of rocket in the SpaceX .
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### <span style="font-size:10px;">Year Wise Performance</span>
+   Dive into a year-wise performance graph, helps to analyze the performance 
+   of SpaceX launches over years.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Wanna try this project . Follow these simple steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone the Repository:** `https://github.com/swarupe7/spacex.git`
+2. **Navigate to the Project Directory:** `cd spacex`
+3. **Install Dependencies:** `npm install`
+4. **Start the Adventure:** `npm start`
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Images 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
